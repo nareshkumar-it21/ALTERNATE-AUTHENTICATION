@@ -1,76 +1,119 @@
-<!---
-Copyright BigchainDB GmbH and BigchainDB contributors
-SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
-Code is Apache-2.0 and docs are CC-BY-4.0
---->
+# 🎉🎊🏆Winners of Smart India Hackathon (World's Biggest Hackathon) 2019🎁🥇🎖️
 
-<!--- There is no shield to get the latest version
-(including pre-release versions) from PyPI,
-so show the latest GitHub release instead.
---->
+# Alternative to traditional credential based authentication
 
-[![Codecov branch](https://img.shields.io/codecov/c/github/bigchaindb/bigchaindb/master.svg)](https://codecov.io/github/bigchaindb/bigchaindb?branch=master)
-[![Latest release](https://img.shields.io/github/release/bigchaindb/bigchaindb/all.svg)](https://github.com/bigchaindb/bigchaindb/releases)
-[![Status on PyPI](https://img.shields.io/pypi/status/bigchaindb.svg)](https://pypi.org/project/BigchainDB/)
-[![Travis branch](https://img.shields.io/travis/bigchaindb/bigchaindb/master.svg)](https://travis-ci.com/bigchaindb/bigchaindb)
-[![Documentation Status](https://readthedocs.org/projects/bigchaindb-server/badge/?version=latest)](https://docs.bigchaindb.com/projects/server/en/latest/)
-[![Join the chat at https://gitter.im/bigchaindb/bigchaindb](https://badges.gitter.im/bigchaindb/bigchaindb.svg)](https://gitter.im/bigchaindb/bigchaindb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+**Organization:**      KG Info System Pvt. Ltd
 
-# BigchainDB Server
+**Category:**          Software
 
-BigchainDB is the blockchain database. This repository is for _BigchainDB Server_.
+**Technology Bucket:** Software - Web App Development
 
-## The Basics
+**Problem Code:**      RV3
 
-* [Try the Quickstart](https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html)
-* [Read the BigchainDB 2.0 whitepaper](https://www.bigchaindb.com/whitepaper/)
-* [Check out the _Hitchiker's Guide to BigchainDB_](https://www.bigchaindb.com/developers/guide/)
+## Working Demo
 
-## Run and Test BigchainDB Server from the `master` Branch
+A working demo can be seen [here](https://www.youtube.com/watch?v=SF3bruNefgk&feature=youtu.be)
 
-Running and testing the latest version of BigchainDB Server is easy. Make sure you have a recent version of [Docker Compose](https://docs.docker.com/compose/install/) installed. When you are ready, fire up a terminal and run:
+## Initial Idea:
 
-```text
-git clone https://github.com/bigchaindb/bigchaindb.git
-cd bigchaindb
+Implementing a new system induces high cost for any organization. So our solution upgrades the existing
+system instead of replacing it. We propose a blockchain powered decentralized, and secure approach built on top of the existing system of username and password.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+1. Docker
+2. Docker-compose
+3. NodeJS
+
+### Installing
+
+#### Clone this repo
+
+```
+git clone https://github.com/NP-compete/Alternate-Authentication
+```
+
+#### Install Dependencies
+
+```
+cd Alternate-Authentication/
+npm install
+```
+
+#### Install the chrome extension
+
+```
+goto: chrome://extensions in the browser and enable 'developer mode'
+press Load unpacked and target the folder Application/Extension/
+```
+
+#### Home Users
+
+##### Run server
+
+```
+cd Application/Desktop/
+npm install
+cd backend/
+node server.js
+```
+
+##### Activate the extension
+
+```
+Activate the extension by clicking the extension icon
+```
+
+#### For enterprise
+
+##### Start Bigchaindb
+
+```
+cd Alternate-Authentication/Enterprise/BlockChain/Server/bigchaindb
 make run
 ```
 
-BigchainDB should be reachable now on `http://localhost:9984/`.
+##### For desktop app
 
-There are also other commands you can execute:
+The desktop app can be used for OTP Authentication and changing authentication level.
 
-* `make start`: Run BigchainDB from source and daemonize it (stop it with `make stop`).
-* `make stop`: Stop BigchainDB.
-* `make logs`: Attach to the logs.
-* `make test`: Run all unit and acceptance tests.
-* `make test-unit-watch`: Run all tests and wait. Every time you change code, tests will be run again.
-* `make cov`: Check code coverage and open the result in the browser.
-* `make doc`: Generate HTML documentation and open it in the browser.
-* `make clean`: Remove all build, test, coverage and Python artifacts.
-* `make reset`: Stop and REMOVE all containers. WARNING: you will LOSE all data stored in BigchainDB.
+```
+npm i
+cd Alternate-Authentication/Application/Desktop/
+npm start
+```
 
-To view all commands available, run `make`.
+Go to one of the websites where there is an login with a username and password , fill the fields and click login.
+Load again the site and the fields will be filled in automatically
+By default they are stored in Google Drive.
 
-## Links for Everyone
 
-* [BigchainDB.com](https://www.bigchaindb.com/) - the main BigchainDB website, including newsletter signup
-* [Roadmap](https://github.com/bigchaindb/org/blob/master/ROADMAP.md)
-* [Blog](https://medium.com/the-bigchaindb-blog)
-* [Twitter](https://twitter.com/BigchainDB)
+## Built With
 
-## Links for Developers
+* [Node JS](https://nodejs.org/en/) - The JavaScript RunTime
+* [Electron](https://electronjs.org/) - For building cross-platform desktop application
+* [BigChainDB](https://www.bigchaindb.com/) - Used to create the enterprise solution
 
-* [All BigchainDB Documentation](https://docs.bigchaindb.com/en/latest/)
-* [BigchainDB Server Documentation](https://docs.bigchaindb.com/projects/server/en/latest/index.html)
-* [CONTRIBUTING.md](.github/CONTRIBUTING.md) - how to contribute
-* [Community guidelines](CODE_OF_CONDUCT.md)
-* [Open issues](https://github.com/bigchaindb/bigchaindb/issues)
-* [Open pull requests](https://github.com/bigchaindb/bigchaindb/pulls)
-* [Gitter chatroom](https://gitter.im/bigchaindb/bigchaindb)
+## Authors
 
-## Legal
+* **Soham Dutta** - [NP-compete](https://github.com/NP-compete)
+* **Abhishek Verma** - [abhishek-verma](https://github.com/abhishek-verma)
+* **V. Nandini Soni** - [nandini8](https://github.com/nandini8)
+* **Mridul Gain** - [mridulgain](https://github.com/mridulgain)
+* **Shivam Gangwar** - [shivamHCU](https://github.com/shivamHCU)
+* **Gaurav** - [gaurav476](https://github.com/gaurav476)
 
-* [Licenses](LICENSES.md) - open source & open content
-* [Imprint](https://www.bigchaindb.com/imprint/)
-* [Contact Us](https://www.bigchaindb.com/contact/)
+See also the list of [contributors](https://github.com/NP-compete/Alternate-Authentication/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Dr Y V Subba Rao
+* Dr Anjenya Swami Kare
